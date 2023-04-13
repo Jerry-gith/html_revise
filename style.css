@@ -151,6 +151,7 @@ section {
 
     .logo {
         margin-right: 15px;
+        font-size: 0.9rem;
     }
     
     img {
@@ -165,16 +166,28 @@ section {
     }
     
     .btn-pdf, .btn-pbk {
-        margin: 15px 5px;
+        font-size: 0.5rem;
+        margin: 5px;
     }
     
     .footer-pages {
+        font-size: 0.5rem;
         padding: 5px;
     }
 
     .cpyrght {
         margin-left: 9px;
+        font-size: 0.5rem;
     }
+    
+    .pages {
+        font-size: 0.7rem;
+    }
+    
+    #jumbotron h1 {
+        font-size: 1.125rem;
+    }
+
 }
 
 
@@ -188,6 +201,7 @@ section {
         
     .logo {
         margin-right: 20px;
+        font-size: 0.9rem;
     }
     
     img {
@@ -202,16 +216,28 @@ section {
     }
     
     .btn-pdf, .btn-pbk {
-        margin: 15px 5px;
+        font-size: 0.5rem;
+        margin: 5px;
     }
     
     .footer-pages {
         padding: 5px;
+        font-size: 0.5rem;
     }
 
     .cpyrght {
         margin-left: 12px;
+        font-size: 0.5rem;
     }
+    
+    .pages {
+        font-size: 0.7rem;
+    }
+    
+    #jumbotron h1 {
+        font-size: 1.125rem;
+    }
+
 
 }
 
@@ -226,6 +252,7 @@ section {
     
     .logo {
         margin-right: 25px;
+        font-size: 0.9rem;
     }
     
     img {
@@ -241,15 +268,26 @@ section {
     
     
     .btn-pdf, .btn-pbk {
-        margin: 15px 5px;
+        font-size: 0.5rem;
+        margin: 5px;
     }
     
     .footer-pages {
         padding: 5px;
+        font-size: 0.5rem;
     }
 
     .cpyrght {
         margin-left: 15px;
+        font-size: 0.5rem;
+    }
+    
+     .pages {
+        font-size: 0.7rem;
+    }
+    
+    #jumbotron h1 {
+        font-size: 1.125rem;
     }
 
 }
