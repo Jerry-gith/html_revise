@@ -139,23 +139,82 @@ section {
     margin-left: 50px;
 }
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .wrapper {
-        width: 95%;
+        width: 90%;
         margin: auto;
         text-align: center;
     }
+
+    .logo {
+        margin-right: 15px;
+    }
+    
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 3%;
+    }
+    
+    .post-1, .post-2, .post-3 {
+        width: 100%;
+        margin: 75px auto;
+    }
+    
+    .btn-pdf, .btn-pbk {
+        margin: 15px 5px;
+    }
+    
+    .footer-pages {
+        padding: 5px;
+    }
+
+    .cpyrght {
+        margin-left: 9px;
+    }
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .wrapper {
-        width: 80%;
+        width: 75%;
         margin: auto;
         text-align: center;
     }
+        
+    .logo {
+        margin-right: 20px;
+    }
+    
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 5%;
+    }
+    
+    .post-1, .post-2, .post-3 {
+        width: 95%;
+        margin: 75px auto;
+    }
+    
+    .btn-pdf, .btn-pbk {
+        margin: 15px 5px;
+    }
+    
+    .footer-pages {
+        padding: 5px;
+    }
+
+    .cpyrght {
+        margin-left: 12px;
+    }
+
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -164,4 +223,33 @@ section {
         margin: auto;
         text-align: center;
     }
+    
+    .logo {
+        margin-right: 25px;
+    }
+    
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 5%;
+    }
+    
+    .post-1, .post-2, .post-3 {
+        width: 90%;
+        margin: 75px auto;
+    }
+    
+    
+    .btn-pdf, .btn-pbk {
+        margin: 15px 5px;
+    }
+    
+    .footer-pages {
+        padding: 5px;
+    }
+
+    .cpyrght {
+        margin-left: 15px;
+    }
+
 }
