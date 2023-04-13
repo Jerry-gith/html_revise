@@ -1,0 +1,140 @@
+/* Tags */
+body {
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Dancing Script', cursive;
+    color: #212A3F;
+}
+
+a {
+    text-decoration: none;
+    color: #434F5B;
+}
+
+a:hover{
+    color: #131417;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+    border-radius: 5%;
+}
+
+p {
+    color: #2E2E2E;
+    text-align: justify;
+}
+
+small {
+    display: block;
+}
+
+section {
+    margin: 100px 0;
+}
+
+/* IDs */
+#jumbotron {
+    border: 3px solid #131417;
+    box-shadow: 0px 0px 15px #434F5B;
+    padding: 30px;
+}
+
+#footer {
+    margin-top: 75px;
+    margin-bottom: -20px;
+}
+
+/* Classes */
+.wrapper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav {
+    background-color: #434F5B;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+.logo, .pages {
+    color: #F2F2ED;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 0px 5px;
+}
+
+.post-1 {
+    margin-top: 5% !important;
+}
+
+.post-1, .post-2, .post-3 {
+    width: 70%;
+    margin: 75px auto;
+}
+
+.span {
+    text-align: center;
+}
+
+.btn-pdf {
+    border-radius: 5%;
+    background-color: #434F5B;
+    color: #F2F2ED;
+    padding: 7.5px 25px;
+    margin: 25px 15px;
+}
+
+.btn-pdf:hover {
+    border: 2px solid #434F5B;
+    background-color: #ffffff;
+}
+
+.btn-pbk {
+    border-radius: 5%;
+    border: 2px solid #434F5B;
+    padding: 7.5px 15px;
+    margin: 25px 15px;
+}
+
+.btn-pbk:hover {
+    background-color: #434F5B;
+    color: #F2F2ED;
+}
+
+.space1 {
+    margin: 15px;
+}
+
+.space2 {
+    margin-top: 50px;
+    margin-bottom: -50px !important;
+}
+
+.links {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.footer-pages {
+    color: #131417;
+    padding: 7.5px;
+
+}
+
+.cpyrght {
+    margin-left: 50px;
+}
