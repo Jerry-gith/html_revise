@@ -138,3 +138,30 @@ section {
 .cpyrght {
     margin-left: 50px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+}
